@@ -5,6 +5,7 @@
 <img src="imgs/readme/logo-fiec.png" alt="Fundação Indaiatubana de Educação e Cultura" width="120">
 <img src="imgs/readme/logo-adece.png" alt="Agência de Desenvolvimento do Estado do Ceará" width="130">
 <img src="imgs/readme/logo-governo-ceara.png" alt="Governo do Estado do Ceará" width="90">
+<img src="imgs/logo-geracao-tech.png" alt="Governo do Estado do Ceará" width="160">
 </div>
 <br><br>
 
