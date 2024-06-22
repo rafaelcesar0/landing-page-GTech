@@ -6,10 +6,10 @@ Um projeto do [Instituto Euvaldo Lodi](https://www.ielbahia.com.br/) (IEL) e o [
 
 A iniciativa tem o objetivo de oferecer Formação em Desenvolvimento Web.
 
-<img src="imgs/readme/logo-iel.png" alt="Instituto Euvaldo Lodi" width="110">
-<img src="imgs/readme/logo-fiec.png" alt="Fundação Indaiatubana de Educação e Cultura" width="130">
-<img src="imgs/readme/logo-adece.png" alt="Agência de Desenvolvimento do Estado do Ceará" width="140">
-<img src="imgs/readme/logo-governo-ceara.png" alt="Governo do Estado do Ceará" width="90">
+<img src="imgs/readme/logo-iel.png" alt="Instituto Euvaldo Lodi" width="100">
+<img src="imgs/readme/logo-fiec.png" alt="Fundação Indaiatubana de Educação e Cultura" width="100">
+<img src="imgs/readme/logo-adece.png" alt="Agência de Desenvolvimento do Estado do Ceará" width="100">
+<img src="imgs/readme/logo-governo-ceara.png" alt="Governo do Estado do Ceará" width="100">
 
 ## Objetivo
 O objetivo dessa atividade é praticar e por a prova os conhecimentos adquiridos em aula sobre ***HTML*** e ***CSS*** replicando esse layout:
