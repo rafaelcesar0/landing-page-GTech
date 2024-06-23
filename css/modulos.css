@@ -1,6 +1,10 @@
 #modulos {
   padding: 100px 28px;
 }
+#modulos a {
+  color: #000;
+  text-decoration: none;
+}
 
 #modulos ul {
   display: flex;

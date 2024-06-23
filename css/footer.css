@@ -1,0 +1,69 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  padding: 0 30px;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background-color: rgb(100, 100, 100);
+  color: white;
+}
+
+#rodape {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+  align-items: center;
+  width: 100%;
+  height: 250px;
+  color: white;
+}
+
+#cadastro {
+  width: 200px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+
+#cadastro p {
+  padding-bottom: 10px;
+}
+#cadastro label, input {
+  font-size: 14px;
+  width: 200px;
+}
+#cadastro button {
+  margin-top: 20px;
+  width: 100px;
+}
+
+#contato {
+  margin-right: 80px;
+}
+
+#contato div {
+  display: flex;
+  margin-top: 10px;
+}
+#contato img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+#aviso {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  margin-bottom: 20px;
+  color: red;
+}
+
+#aviso p {
+  font-size: 14px;
+}
