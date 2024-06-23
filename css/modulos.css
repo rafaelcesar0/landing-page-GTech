@@ -1,0 +1,45 @@
+#modulos {
+  padding: 100px 28px;
+}
+
+#modulos ul {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/*https://geracaotech.iel-ce.org.br/images/logo-geracao-tech.png*/
+
+#modulos li {
+  padding: 15px;
+  font-size: 22px;
+  background-color: #ededed;
+  width: 240px;
+  height: 150px;
+  border-top: 6px solid gray;
+  box-shadow: 2px 4px 5px 0 #bdbdbd;
+  transition: 0.5s ease-in-out;
+  background-repeat: no-repeat;
+  background-position: right top;
+
+}
+
+#modulos li:hover {
+  transform: translateY(-10px);
+  
+}
+
+#modulos li:first-child {
+  border-top: 6px solid #009681;
+}
+
+#modulos li:first-child:hover {
+  border-top-color: #000;
+}
+
+#modulos p {
+  font-size: 20px;
+}

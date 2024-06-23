@@ -10,15 +10,13 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon" href="imgs/favicon.png" type="image/x-icon" />
     <title>GTECH02</title>
   </head>
-  <body>
-    <header>
-
-      <nav id="navbar">
+  <body id="home">
+    <nav id="menu">
+      <div id="menu-nav">
         <i class="fa-solid fa-code" id="nav_logo"> G T E C H 0 2</i>
         <ul id="nav_list">
           <li class="nav-item">
@@ -34,32 +32,144 @@
             <a href="#equipe">Equipe</a>
           </li>
         </ul>
-      </nav>
-
-      <table id="content-header">
-        <tr>
-          <th style="text-align: start;">
-            <img
-              src="imgs/logo-geracao-tech-black.png"
-              alt="Logo Geração Tech"
-              id="logo_gtech"
-            />
-            <p id="text_header">Desenvolvendo<br><strong>o Futuro da Tecnologia</strong><br>no Ceará</p>
-          </th>
-          <th>
-            <img
-              src="imgs/img-header.jpg"
-              alt="Imagem de um notebook com códigos na tela"
-              id="img_header"
-            />
-          </th>
-        </tr>
-      </table>
-
+      </div>
+    </nav>
+    <header id="header">
+      <div id="conteudo-header-texto">
+        <img
+          src="imgs/logo-geracao-tech-black.png"
+          alt="Logo Geração Tech"
+          id="logo_gtech"
+        />
+        <p id="text_header">
+          Desenvolvendo<br /><strong>o Futuro da Tecnologia</strong><br />no
+          Ceará
+        </p>
+      </div>
+      <div>
+        <img
+          src="imgs/img-header.jpg"
+          alt="Imagem de um notebook com códigos na tela"
+          id="img_header"
+        />
+      </div>
     </header>
-    
-    <main id="content">
 
+    <main>
+      <div id="modulos">
+        <ul>
+          <li>
+            <h3>Módulo 1</h3>
+            <p>Fundamentos do desenvolvimento Web</p>
+          </li>
+          <li>
+            <h3>Módulo 2</h3>
+            <p>Desenvolvimento Front-End</p>
+          </li>
+          <li>
+            <h3>Módulo 3</h3>
+            <p>Desenvolvimento Back-End</p>
+          </li>
+          <li>
+            <h3>Módulo 4</h3>
+            <p>Testes automatizados</p>
+          </li>
+        </ul>
+      </div>
+
+      <div id="tecnologias">
+        <div>
+          <h1>Front-End</h1>
+          <ul id="front-end">
+            <li>
+              <img src="https://skillicons.dev/icons?i=html" />
+              HTML
+            </li>
+            <li>
+              <img src="https://skillicons.dev/icons?i=css" />
+              CSS
+            </li>
+            <li>
+              <img src="https://skillicons.dev/icons?i=js" />
+              JS
+            </li>
+            <li>
+              <img src="https://skillicons.dev/icons?i=react" />
+              React
+            </li>
+            <li>
+              <img src="https://skillicons.dev/icons?i=bootstrap" />
+              Bootstrap
+            </li>
+            <li>
+              <img src="https://skillicons.dev/icons?i=git" />
+              Git
+            </li>
+            <li>
+              <img src="https://skillicons.dev/icons?i=github" />
+              GtiHub
+            </li>
+            <li>
+              <img src="https://skillicons.dev/icons?i=cypress" />
+              Cypress
+            </li>
+          </ul>
+        </div>
+
+        <hr />
+
+        <div>
+          <h1>Back-End</h1>
+          <ul id="back-end">
+            <li>
+              <img src="https://skillicons.dev/icons?i=nodejs" />
+              Node
+            </li>
+            <li>
+              <img src="https://skillicons.dev/icons?i=express" />
+              Express
+            </li>
+            <li>
+              <img src="https://skillicons.dev/icons?i=mysql" />
+              MySQL
+            </li>
+            <li>
+              <img src="https://skillicons.dev/icons?i=next" />
+              Next
+            </li>
+            <li>
+              <img src="https://skillicons.dev/icons?i=nest" />
+              Nest
+            </li>
+            <li>
+              <img src="https://skillicons.dev/icons?i=git" />
+              Git
+            </li>
+            <li>
+              <img src="https://skillicons.dev/icons?i=github" />
+              GtiHub
+            </li>
+            <li>
+              <img src="https://skillicons.dev/icons?i=jest" />
+              Jest
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="equipe">
+        <h2>Desenvolvedor desse Projeto</h2>
+        <img id="photo-user" src="imgs/photo-user.jpg" alt="Foto de perfil" />
+        <p>Rafael César</p>
+        <div id="redes-sociais">
+          <a href="https://www.linkedin.com/in/rafaelcesar0/" target="_blank">
+            <img src="https://skillicons.dev/icons?i=linkedin" />
+          </a>
+          <a href="https://github.com/rafaelcesar0" target="_blank">
+            <img src="https://skillicons.dev/icons?i=github" />
+          </a>
+        </div>
+      </div>
     </main>
   </body>
 </html>

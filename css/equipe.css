@@ -1,0 +1,15 @@
+#equipe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#equipe h2 {
+  margin-bottom: 20px;
+}
+
+#photo-user {
+  width: 250px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}

@@ -1,42 +1,28 @@
-header {
+#header {
   width: 100%;
-  padding: 28px 8%;
-  min-width: 900px;
+  padding-top: 120px;
+  padding-bottom: 50px;
+  /* padding: 50px 28px; */
+  /* min-width: 900px; */
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  justify-content: center;
   text-align: center;
 }
 
-#navbar {
-  width: 100%;
-  padding-bottom: 30px;
-  max-width: 900px;
+#conteudo-header {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-#nav_logo {
-  font-size: 30px;
-  color: #000;
-  margin-right: 60px;
-  white-space: nowrap;
-}
-
-#nav_list {
-  display: flex;
-  list-style: none;
-  gap: 60px;
-}
-
-#content-header {
-  margin: 100px 20px;
+  padding: 100px 5px;
   width: 840px;
 }
 
+#conteudo-header-texto {
+  text-align: start;
+  width: 320px;
+}
+
 #logo_gtech {
-  width: 250px;
+  width: 280px;
 }
 
 #text_header {
@@ -48,16 +34,4 @@ header {
 #img_header {
   width: 500px;
   border-radius: 30px;
-}
-
-.nav-item a{
-  padding: 0 4px;
-  text-decoration: none;
-  color: #1d1d1dad;
-  font-weight: 600;
-  transition: 0.1s ease-in-out;
-}
-
-.nav-item a:hover {
-  border-bottom: #000 solid;
 }
